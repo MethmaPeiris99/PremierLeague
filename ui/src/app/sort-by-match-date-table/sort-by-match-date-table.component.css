@@ -1,0 +1,29 @@
+#table-container{
+  width: 100%;
+  border: floralwhite 0.2em solid;
+  border-radius: 20px;
+  padding: 5%;
+  font-family: "Hind";
+  font-size: x-large;
+  opacity: 70%;
+  background: transparent;
+}
+th,td{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #ddd;
+  width: 10%;
+  color: floralwhite;
+
+  background-color: #595659;
+
+}
+th{
+  background-color: #740744;
+}
+h1{
+  color: floralwhite;
+  font-family: "Hind";
+  text-align: center;
+}

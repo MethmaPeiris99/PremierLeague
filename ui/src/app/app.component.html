@@ -1,0 +1,15 @@
+<div id="premier-league-gui-container">
+  <nav>
+    <button class="table-option" id="home-button" routerLink = "">League Home Page</button>
+    <button class="table-option" routerLink = "/premier-league-table-sorted-by-points">Sort by points</button>
+    <button class="table-option" routerLink = "/premier-league-table-sorted-by-scoredgoals">Sort by score</button>
+    <button class="table-option" routerLink = "/premier-league-table-sorted-by-wincount">Sort by wins</button>
+    <button class="table-option" routerLink = "/premier-league-match-table-sorted-by-matchdate">Sort by match date</button>
+    <button class="table-option" routerLink = "/generate_random_match">Random Match</button>
+    <button class="table-option" routerLink = "/premier-league-search-match">Search Match</button>
+  </nav>
+</div>
+<div>
+<app-premier-league-topic-container></app-premier-league-topic-container>
+</div>
+<router-outlet></router-outlet>

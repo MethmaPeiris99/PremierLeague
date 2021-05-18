@@ -1,0 +1,26 @@
+<h1>-- TABLE OF CLUBS SORTED BY DESCENDING ORDER OF POINTS --</h1>
+<table id = "table-container">
+  <tr>
+    <th>Club</th>
+    <th>Played</th>
+    <th>Won</th>
+    <th>Drawn</th>
+    <th>Lost</th>
+    <th>GS</th>
+    <th>GR</th>
+    <th>GD</th>
+    <th>Points</th>
+  </tr>
+  <tr *ngFor = "let footballClub of leagueFootballClubs">
+    <td>{{footballClub.sportsClubName}}</td>
+    <td>{{footballClub.footballClubNumberOfMatchesPlayed}}</td>
+    <td>{{footballClub.footballClubNumberOfWins}}</td>
+    <td>{{footballClub.footballClubNumberOfDraws}}</td>
+    <td>{{footballClub.footballClubNumberOfDefeats}}</td>
+    <td>{{footballClub.footballClubNumberOfGoalsScored}}</td>
+    <td>{{footballClub.footballClubNumberOfGoalsReceived}}</td>
+    <td>{{footballClub.footballClubGoalDifference}}</td>
+    <td>{{footballClub.footballClubNumberOfPoints}}</td>
+  </tr>
+</table>
+

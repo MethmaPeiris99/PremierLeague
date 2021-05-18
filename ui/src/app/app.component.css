@@ -1,0 +1,26 @@
+#premier-league-gui-container{
+  height: 40%;
+}
+nav{
+  width: 100%;
+}
+.table-option{
+  width: 14%;
+  padding: 0.75%;
+  margin-left: 0.2%;
+  border: #740744 0.1em solid;
+  border-radius: 0.5em;
+  font-family: "Hind";
+  font-size: medium;
+  font-weight: bold;
+  color: floralwhite;
+  background-color: #09000A;
+}
+.table-option:hover{
+  background-color: floralwhite;
+  color: #740744;
+}
+
+img{
+  width: 100%;
+}

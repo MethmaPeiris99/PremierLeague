@@ -1,0 +1,9 @@
+#HTTP GET  requests related to the GUI
+GET        /premier-league-table-sorted-by-points                   controllers.LeagueController.getClubListSortedByPointsAsJson
+GET        /premier-league-table-sorted-by-scoredgoals              controllers.LeagueController.getClubListSortedByScoredGoals
+GET        /premier-league-table-sorted-by-wincount                 controllers.LeagueController.getClubListSortedByWinCount
+GET        /premier-league-match-table-sorted-by-matchdate          controllers.LeagueController.getMatchListSortedByDate
+GET        /premier-league-random-match                             controllers.LeagueController.getGeneratedRandomMatch
+GET        /premier-league-search-match                             controllers.LeagueController.getSearchedMatch(inputOfDateValue)
+
+

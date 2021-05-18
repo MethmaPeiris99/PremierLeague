@@ -1,0 +1,53 @@
+#table-container{
+  width: 100%;
+  border: floralwhite 0.2em solid;
+  border-radius: 20px;
+  padding: 5%;
+  font-family: "Hind";
+  font-size: x-large;
+  opacity: 70%;
+  background: transparent;
+}
+th,td{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #ddd;
+  width: 10%;
+  color: floralwhite;
+
+  background-color: #595659;
+
+}
+th{
+  background-color: #740744;
+}
+#search-button{
+  font-family: "Hind";
+  font-size: medium;
+  font-weight: bold;
+  color: #740744;
+  background-color: floralwhite;
+  margin: 0 0 2% 1%;
+  padding: 1%;
+  border: #740744 0.1em solid;
+  border-radius: 0.5em;
+}
+#search-button:hover{
+  background-color: #09000A;
+  color: #740744;
+}
+#text-search{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h1{
+  color: floralwhite;
+  font-family: "Hind";
+  text-align: center;
+}
